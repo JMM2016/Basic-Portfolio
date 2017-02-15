@@ -1,0 +1,233 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+	float: left;
+	width: 350px;
+	height: 100px;
+	background-color: #4aaaa5;
+	color: white;
+	font-weight: bold;
+	border-color: #cccccc;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+	padding-top: 30px;
+	text-align: center;
+	position: relative;
+	right: -100px;
+}
+
+nav {
+	float: left;
+	width: 300;
+	height: 100;
+	padding: 10px;
+	padding-top: 20px;
+	text-align: center;
+	position: relative;
+	right: -300px;
+	margin-top: 25px;
+	color: #cccccc;
+}
+
+#middle {	
+	.clearfix::after 
+    content: "";
+    clear: both;
+    display: table;
+	background-color: blue;
+	border-style: solid;
+	border-color: #cccccc;
+	border-top-width: 2px;
+	background-image: url(../images/nybg.png);
+}
+
+#main, aside {
+	float: left;
+	margin-top: 35px;
+	margin-bottom: 35px;
+	margin-right: 10px;
+	margin-left: 10px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	background-color: #ffffff;
+}
+
+#main {
+	width: 650px;
+	padding: 10px;
+} 
+
+aside {
+	width: 270px;
+	padding: 10px;
+	/*	position: relative;
+	top: -430px;
+	left: 665px;
+	overflow: hidden;
+	*/
+}
+
+#connect {
+	text-align: center;
+	border-style: solid;
+	border-bottom-width: 2px;
+	border-color: #cccccc;
+	padding: 19px;
+}
+
+footer {
+	clear: both;
+	background-color: #666666;
+	text-align: center;
+	height: 90px;
+	padding-top: 30px;
+	border-style: solid;
+	border-top-width: 8px;
+	border-color: #4aaaa5;
+	color: #999999;
+}
+
+h1,h2,h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+}
+
+h1 {	
+	font-size: 33px;
+}
+
+h2 {
+	font-size: 30px;
+	color: #4aaaa5;
+}
+
+h3 {
+	font-size: 21px;
+	color: #4aaaa5;
+}
+
+article {
+	border-bottom-width: 2px;
+	border-style: solid;
+	border-color: #cccccc;
+	margin: 10px;
+	padding-top: 20px;
+	padding-bottom:  25px;
+}
+
+img {
+	float: left;
+	margin-right: 10px;
+	margin-top: 10px
+	margin-bottom: 10px;
+}
+
+#myInfo, #input, #projects {
+	padding: 10px;
+}
+
+#logos {
+	padding: 10px;
+	padding-left: 30px;
+}
+
+a, input {
+	color: #cccccc;
+	text-decoration: none;
+}
+
+#inputWidth {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+input[type=submit] {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 12px;
+	border: 0 none;
+	font-size: 18px;
+	width: 125px;
+}
+
+#sub {
+	text-align: center;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	padding: 10px;
+	padding-top: 20px;
+	width: 100%;
+	height: 60px;
+	position: relative;
+	top: 95px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+}	
+
+#one, #two, #three, #four, #five {
+	background-color: #cccccc;
+	width: 285px;
+	height: 165px;
+	border: 1px solid #cccccc;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#one, #three {
+	margin-right: 37px;
+}
+
+#one {
+	background-image: url(../images/hangman.jpg);
+	background-size: 80px 60px;
+    /*background-repeat: no-repeat;*/	
+}	
+
+#two {
+	background-image: url(../images/rpg.jpg);
+	/*background-size: 149px 118px;*/
+	background-size: 35%;
+	
+}
+
+#three {
+	background-image: url(../images/trivia.png);
+}
+
+#four {
+	background-color: #ffffff;
+	background-image: url(../images/news.png);
+	background-size: 90%;		
+}	
+
+#five {
+	background-color: #ffffff;
+	background-image: url(../images/rps1.png);
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+}
+
+/*
+Teal color (used for headings and backgrounds): #4aaaa5
+Regular font color (used for paragraphs and all text besides the headings): #777777
+Main header background color: #ffffff
+Main header border color: #cccccc
+Footer background color: #666666
+Main content background color: #ffffff
+Main content border color: #dddddd
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.
+*/
